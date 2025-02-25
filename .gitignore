@@ -1,0 +1,6 @@
+test/
+node_modules/
+.genkit/
+*.js
+set_env.sh
+.env

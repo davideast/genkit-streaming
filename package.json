@@ -1,0 +1,25 @@
+{
+  "name": "js-character-generator",
+  "version": "0.1.0",
+  "description": "A simple Firebase Genkit app to generate fantasy characters",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "genkit:dev": "npx genkit start -- npx tsx --watch index.ts",
+    "create:env": "echo '#!/usr/bin/env bash\n\n# source ./set_env.sh\nexport GOOGLE_GENAI_API_KEY=\"\"' > set_env.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@dotenvx/dotenvx": "^1.38.2",
+    "dotenv": "^16.4.7",
+    "genkit-cli": "^1.0.4",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "@genkit-ai/googleai": "^1.0.4",
+    "genkit": "^1.0.4"
+  }
+}
