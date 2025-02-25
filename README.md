@@ -2,6 +2,17 @@
 
 You know you want those cool AI typing effects. Well, streaming is super easy with Genkit. Here's how it works...
 
+## I just want to run the code
+
+```
+# git clone
+npm i
+npm run create:env
+# set GOOGLE_GENAI_API_KEY in set_env.sh
+source ./set_env.sh
+npx tsx --watch index.ts
+```
+
 ## Load API keys
 
 ```bash
